@@ -98,10 +98,10 @@ public class Leader extends AppCompatActivity implements View.OnClickListener {
             }catch (JSONException e) {
                 e.printStackTrace();
             }
-            JSONArray cityArray = jsonObject.getJSONArray("players");
+            JSONArray playerArray = jsonObject.getJSONArray("players");
 
-            for (int i=0; i<cityArray.length();i++){
-                JSONObject cityo = cityArray.getJSONObject(i);
+            for (int i=0; i<playerArray.length();i++){
+                JSONObject cityo = playerArray.getJSONObject(i);
                 String cityn = cityo.get("leaderboardRank").toString();
                 if (cityn.equals(gameName)){
                     String population = cityo.get("gameName").toString();
