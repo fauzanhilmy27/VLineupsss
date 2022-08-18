@@ -15,19 +15,19 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class DetailBrim extends AppCompatActivity {
+public class DetailKilljoy extends AppCompatActivity {
 
     RecyclerView recyclerView;
     DatabaseReference database;
     MyAdapter myAdapter;
     ArrayList<User> list;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_brim);
-
+        setContentView(R.layout.activity_detail_killjoy);
         recyclerView = findViewById(R.id.list);
-        database = FirebaseDatabase.getInstance().getReference("User2");
+        database = FirebaseDatabase.getInstance().getReference("User6");
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

@@ -3,7 +3,8 @@
     package="com.aplication.vlineupss">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,24 +13,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VLineupss">
         <activity
+            android:name=".DetailKilljoy"
+            android:exported="false"
+            android:theme="@style/Theme.VLineupss.NoActionBar"/>
+        <activity
+            android:name=".DetailKayo"
+            android:exported="false"
+            android:theme="@style/Theme.VLineupss.NoActionBar"/>
+        <activity
             android:name=".DetailBrim"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.VLineupss.NoActionBar"/>
         <activity
             android:name=".DetailFade"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.VLineupss.NoActionBar"/>
         <activity
             android:name=".DetailSova"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.VLineupss.NoActionBar"/>
+        <activity
+            android:name=".DetailViper"
+            android:exported="false"
+            android:theme="@style/Theme.VLineupss.NoActionBar"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name" />
+            android:exported="true" />
         <activity
             android:name=".Leader"
             android:exported="true" />
         <activity
             android:name=".splashscreen"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.VLineupss.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

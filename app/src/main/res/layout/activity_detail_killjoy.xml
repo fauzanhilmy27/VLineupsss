@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        tools:context=".DetailKilljoy">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black" />
+        <TextView
+            android:id="@+id/mapbind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textSize="15dp"
+            android:text="Berikut Lineup di map bind"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/vbind"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/mapbind"
+            android:layout_height="wrap_content"
+            app:videoId="NEsaZhIzjVA"
+            app:autoPlay="false" />
+        <ImageView
+            android:id="@+id/gbrbind"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/vbind"
+            android:layout_marginLeft="140dp"
+            android:src="@drawable/bind"
+            />
+
+        <TextView
+            android:id="@+id/maphaven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gbrbind"
+            android:layout_marginLeft="100dp"
+            android:textSize="15dp"
+            android:text="Berikut Lineup di map Haven"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/vhaven"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/maphaven"
+            android:layout_height="wrap_content"
+            app:videoId="EEMT_0zTV6M"
+            app:autoPlay="false" />
+        <ImageView
+            android:id="@+id/gbrhvn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/vhaven"
+            android:layout_marginLeft="140dp"
+            android:src="@drawable/haven"
+            />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

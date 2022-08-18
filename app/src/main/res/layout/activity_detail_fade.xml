@@ -14,25 +14,33 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@drawable/gradient"
+    android:background="@color/black"
     tools:context=".DetailFade">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black" />
 
     <TextView
         android:id="@+id/mapbind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
         android:layout_marginLeft="100dp"
-        android:textSize="15dp"
         android:text="Berikut Lineup di map bind"
-        android:textStyle="bold"
-        />
-<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-    android:id="@+id/vbind"
-    android:layout_width="match_parent"
-    android:layout_below="@+id/mapbind"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/vbind"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:videoId="41l6zvFMah0"
-        app:autoPlay="false" />
+        android:layout_below="@+id/mapbind"
+        app:autoPlay="false"
+        app:videoId="41l6zvFMah0" />
     <ImageView
         android:id="@+id/gbrbind"
         android:layout_width="100dp"
@@ -49,6 +57,7 @@
         android:layout_below="@+id/gbrbind"
         android:layout_marginLeft="100dp"
         android:textSize="15dp"
+        android:textColor="@color/white"
         android:text="Berikut Lineup di map Haven"
         android:textStyle="bold"
         />

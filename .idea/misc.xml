@@ -4,14 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/VLineupss/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1035" />
+        <entry key="..\:/VLineupss/app/src/main/res/drawable/backround_relative.xml" value="0.192" />
         <entry key="..\:/VLineupss/app/src/main/res/drawable/gradient.xml" value="0.1" />
         <entry key="..\:/VLineupss/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1035" />
         <entry key="..\:/VLineupss/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1035" />
         <entry key="..\:/VLineupss/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1035" />
+        <entry key="..\:/VLineupss/app/src/main/res/drawable/kotakhitam.xml" value="0.117" />
+        <entry key="..\:/VLineupss/app/src/main/res/drawable/relative2.xml" value="0.192" />
         <entry key="..\:/VLineupss/app/src/main/res/drawable/sova1.xml" value="0.1035" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/activity_detail_brim.xml" value="0.2246376811594203" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/activity_detail_fade.xml" value="0.33" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/activity_detail_kayo.xml" value="0.2246376811594203" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/activity_detail_killjoy.xml" value="0.1897644927536232" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/activity_detail_sova.xml" value="0.225" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/activity_detail_viper.xml" value="0.2246376811594203" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/activity_leader.xml" value="0.19655797101449277" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/activity_splashscreen.xml" value="0.1" />
@@ -19,12 +25,21 @@
         <entry key="..\:/VLineupss/app/src/main/res/layout/detail_sova.xml" value="0.1" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/fragment_first.xml" value="0.19655797101449277" />
-        <entry key="..\:/VLineupss/app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/fragment_leader.xml" value="0.19655797101449277" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/fragment_notifications.xml" value="0.22" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/fragment_second.xml" value="0.19655797101449277" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/item.xml" value="0.225" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/itembrim.xml" value="0.1897644927536232" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/itemkayo.xml" value="0.1897644927536232" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/itemkilljoy.xml" value="0.1897644927536232" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/itemsova.xml" value="0.1897644927536232" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/itemviper.xml" value="0.1897644927536232" />
         <entry key="..\:/VLineupss/app/src/main/res/layout/leader.xml" value="0.1" />
+        <entry key="..\:/VLineupss/app/src/main/res/layout/single_image_layout.xml" value="0.1" />
         <entry key="..\:/VLineupss/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/VLineupss/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.192" />
+        <entry key="..\:/VLineupss/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.192" />
       </map>
     </option>
   </component>
