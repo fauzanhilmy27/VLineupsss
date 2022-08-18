@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "900426549693",
+    "firebase_url": "https://androidvalorant-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "androidvalorant",
+    "storage_bucket": "androidvalorant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900426549693:android:0becae28ee33139bfcead4",
+        "android_client_info": {
+          "package_name": "com.aplication.vlineupss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900426549693-ea4208fnh2osn8qdutvfhvje6drdl6n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmAvLfT5YWZ8kW_fUePgh5ZgcbQfWZ-oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900426549693-ea4208fnh2osn8qdutvfhvje6drdl6n3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
